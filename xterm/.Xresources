@@ -5,3 +5,5 @@ xterm*background: black
 xterm*foreground: white
 xterm*utf8Title: true
 xterm*boldMode: false
+XTerm*scrollBar:   on
+XTerm*saveLines:   5000
