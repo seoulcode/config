@@ -1,0 +1,7 @@
+xterm*utf8: 1
+xterm*faceName: Fira Code Retina:size=10
+xterm*faceNameDoublesize: NanumGothicCoding:size=9
+xterm*background: black
+xterm*foreground: white
+xterm*utf8Title: true
+xterm*boldMode: false
