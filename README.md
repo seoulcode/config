@@ -1,0 +1,2 @@
+# xtermconfig
+xterm config
