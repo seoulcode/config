@@ -1,0 +1,24 @@
+#!/bin/bash
+
+find . -type f \
+	! -wholename "*.svn-base" \
+	! -wholename "*.bak" \
+	! -wholename "*.swp" \
+	! -wholename "*.swo" \
+	! -wholename "*.o"   \
+	! -wholename "*.a"   \
+	! -wholename "*.so"  \
+	! -wholename "*.ko"  \
+	! -wholename "*.png"  \
+	! -wholename "*.gif"  \
+	! -wholename "*.jpg"  \
+	! -wholename "*.exe"  \
+	! -wholename "*.mod"  \
+	! -wholename "*.db"  \
+	! -wholename "*.symvers"  \
+	! -wholename "cscope.out"  \
+	! -wholename "*cscope*.files*"  \
+	! -wholename "*ncscope*.out*" \
+	! -wholename "*.cmd" \
+	> cscope.files
+

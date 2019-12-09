@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then echo "`basename $0` pattern"; exit 0; fi
+
+find . -type f \
+    ! -wholename "*.(swp|cmd|bak|gz)$" \
+    ! -wholename "*.svn-base" \
+    ! -wholename "*cscope.out" \
+    -exec grep --color -H -n -e "$*" {} \;
+
